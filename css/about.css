@@ -56,8 +56,14 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    width: 65%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 header {
-    margin: 20px 270px 40px 270px;
+    margin: 20px 0px 40px 0px;
     padding: 30px 0px;
     display: flex;
     justify-content: space-between;
@@ -76,100 +82,83 @@ header nav a {
 }
 
 .top-img {
+    width: 100%;
     display: flex;
     justify-content: center;
     margin: 30px 0px 30px 0px;
 }
 
-h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
-    font-family: 'Rubik', sans-serif;
+div.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: flex-start;
+    margin: 40px 0px 20px 0px;
+    line-height: 1.5em;
+}
+
+section.main-content {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.main-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+div.strategy, .how, .places, .collaborate {
+    width: 370px;
+    height: 450px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+h2 {
+    margin-top: 20px;
 }
 
 p {
-    line-height: 1.4;
+    margin: 20px 0px 20px 0px;
+    line-height: 1.5em;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+button {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
 }
-
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-.middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-content .boxes .box {
-    background-color: teal;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+div.together {
+    margin: 40px 0px 40px 0px;
+    line-height: 1.5em;
 }
 
 footer {
-    width: 100%;
-    background: black;
+    background-color: black;
+    height: 40px;
 }
 
 footer nav {
     width: 60%;
     display: flex;
+    justify-content: flex-start;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
 }
 
 footer nav a {
+    margin-top: 10px;
+    margin-left: 20px;
     color: white;
     text-decoration: none;
 }
