@@ -138,6 +138,14 @@ button {
     border-radius: 10px;
     margin: 20px 0px 20px 0px;
 }
+
+hr {
+    border: none;
+    border-top: 1px dotted black;
+    height: 1px;
+    width: 45%;
+}
+
 div.together {
     margin: 40px 0px 40px 0px;
     line-height: 1.5em;
